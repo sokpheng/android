@@ -1,15 +1,27 @@
 # android
 
-![](https://maven-badges.herokuapp.com/maven-central/io.github.webrtc-sdk/android/badge.svg)
+[![](https://jitpack.io/v/webrtc-sdk/android.svg)](https://jitpack.io/#webrtc-sdk/android)
 
 WebRTC pre-compiled library for android.
 
 ## How to use
 
-This library is hosted on Maven Central. To include this library in your project:
+Add it in your root build.gradle at the end of repositories:
+
+```gradle
+  allprojects {
+    repositories {
+      ...
+      maven { url 'https://jitpack.io' }
+    }
+  }
+```
+
+Step 2. Add the dependency
+
 
 ```gradle
   dependencies {
-    implementation 'io.github.webrtc-sdk:android:104.5112.09'
+    implementation 'com.github.webrtc-sdk:android:104.5112.03'
   }
 ```

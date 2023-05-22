@@ -2,11 +2,11 @@
 
 set -e
 
-VERSION=104.5112.09
+VERSION=104.5112.03
 
 RELEASE_VERSION=${VERSION}
 
-SDK_BIN_URL=https://github.com/webrtc-sdk/android/releases/download/v${VERSION}/libwebrtc.aar
+SDK_BIN_URL=https://github.com/webrtc-sdk/android/releases/download/${VERSION}/libwebrtc.aar
 
 BUILD_DIR=build
 mkdir -p ${BUILD_DIR}

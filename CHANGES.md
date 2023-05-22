@@ -1,32 +1,6 @@
 # Changelog
 
 --------------------------------------------
-[104.5112.09] - 2023.04.25
-
-* Upgrade to WebRTC-SDK M104.5112.09
-* rename KeyManager to KeyProvider.
-  
-[104.5112.08] - 2023.03.30
-
-* Upgrade to WebRTC-SDK M104.5112.08
-* feat: Add key ratchet for FrameCryptor.
-
-[104.5112.07] - 2023.02.02
-
-* Upgrade to WebRTC-SDK M104.5112.07
-* feat: Frame encryption for android.
-
-[104.5112.06] - 2023.01.31
-
-* Upgrade to WebRTC-SDK M104.5112.06
-* feat: Expose setCodecPreferences/getCapabilities for android.
-
-[104.5112.05] - 2022.11.23
-
-* Upgrade to WebRTC-SDK M104.5112.05
-* Fix simulcast when using hardware encoder on Android
-
-Corresponds to https://github.com/webrtc-sdk/webrtc/commit/baa0294c5e48e89887ad09a0fe6785c3aa9cc705
 
 [104.5112.03] - 2022.10.11
 
@@ -36,9 +10,9 @@ Corresponds to https://github.com/webrtc-sdk/webrtc/commit/baa0294c5e48e89887ad0
 
 Corresponds to https://github.com/webrtc-sdk/webrtc/commit/9dab54fd76cb5d0a1a10fe6168cb356f392c502f
 
-[104.5112.01] - 2022.07.12
+[104.5112.02] - 2022.07.12
 
-* Upgrade to WebRTC-SDK M104.5112.01
+* Upgrade to WebRTC-SDK M104.5112.02
 
 Corresponds to https://github.com/webrtc-sdk/webrtc/commit/a828846eb98e404bf3b00c1abf3787f93171a39c
 
